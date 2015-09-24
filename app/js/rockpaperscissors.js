@@ -21,8 +21,6 @@ function randomPlay() {
 /*           Write Your Code Below            */
 ////////////////////////////////////////////////
 
-
-
 function getPlayerMove(move) {
     // var  Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
@@ -80,8 +78,6 @@ function getWinner(playerMove,computerMove) {
     return winner;
 }
 
-
-
 function playToFive() {
     console.log("Let's play Rock, Paper, Scissors");
     var playerWins = 0;
@@ -106,7 +102,7 @@ function playToFive() {
         console.log("This round was a tie.");
       }
 
-      console.log("The score is currently " + playerWins + " to " + computerWins + '.');
+        console.log("The score is currently " + playerWins + " to " + computerWins + '.');
 
     }
     return [playerWins, computerWins];
